@@ -3,7 +3,8 @@ msgstr ""
 "Project-Id-Version: Custom Post Type Widgets\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-06-04 23:59+0900\n"
-"PO-Revision-Date: 2012-06-05 00:47+0900\n"
+"PO-Revision-Date: Sun Jan 24 2016 15:47:54 GMT+0100 (W. Europe Standard "
+"Time)\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -11,97 +12,99 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "The most recent custom posts on your site"
-msgstr ""
+msgstr "Die aktuellsten Beiträge deiner Website."
 
 msgid "Recent Posts (Custom Post Type)"
-msgstr ""
+msgstr "Letzte Beiträge (Selbsterstellter Inhaltstyp)"
 
 msgid "Recent Posts"
-msgstr ""
+msgstr "Letzte Beiträge"
 
 msgid "Post Type:"
-msgstr ""
+msgstr "Inhaltstyp:"
 
 msgid "A monthly archive of your site&#8217;s Posts."
-msgstr ""
+msgstr "Ein monatliches Archiv der Beiträge deiner Website."
 
 msgid "Archives (Custom Post Type)"
-msgstr ""
+msgstr "Archive (Selbsterstellter Inhaltstyp)"
 
 msgid "Archives"
-msgstr ""
+msgstr "Archive"
 
 msgid "Select Month"
-msgstr ""
+msgstr "Wähle den Monat"
 
 msgid "A list or dropdown of categories."
-msgstr ""
+msgstr "Eine Liste oder ausklappbare Liste von Kategorien."
 
 msgid "Categories (Custom Post Type)"
-msgstr ""
+msgstr "Kategorien (Selbsterstellter Inhaltstyp)"
 
 msgid "Categories"
-msgstr ""
+msgstr "Kategorien"
 
 msgid "Select Category"
-msgstr ""
+msgstr "Kategorie auswählen"
 
 msgid "Taxonomy:"
-msgstr ""
+msgstr "Taxonomie:"
 
 msgid "A calendar of your site&#8217;s Posts."
-msgstr ""
+msgstr "Ein Kalender der Beiträge deiner Website."
 
 msgid "Calendar (Custom Post Type)"
-msgstr ""
+msgstr "Kalender (Selbsterstellter Inhaltstyp)"
 
 msgid "Calendar"
-msgstr ""
+msgstr "Kalender "
 
 msgid "Your site’s most recent comments."
-msgstr ""
+msgstr "Die aktuellsten Kommentare deiner Website."
 
 msgid "Recent Comments (Custom Post Type)"
-msgstr ""
+msgstr "Letzte Kommentare (Selbsterstellter Inhaltstyp)"
 
 msgid "Recent Comments"
-msgstr ""
+msgstr "Letzte Kommentare"
 
 msgid "A cloud of your most used tags."
-msgstr ""
+msgstr "Eine Wortwolke deiner meist genutzten Schlagworte."
 
 msgid "Tag Cloud (Custom Post Type)"
-msgstr ""
+msgstr "Wortwolke (Selbsterstellter Inhaltstyp)"
 
 msgid "Tags"
-msgstr ""
+msgstr "Schlagworte"
 
+#, c-format
 msgid "%1$s %2$d"
-msgstr ""
+msgstr "%1$s %2$d"
 
+#, c-format
 msgid "View posts for %1$s %2$s"
-msgstr ""
+msgstr "Beitrag %1$s %2$s ansehen"
 
 msgid "Title:"
-msgstr ""
+msgstr "Titel:"
 
 msgid "Number of posts to show:"
-msgstr ""
+msgstr "Anzahl der Beiträge, die angezeigt werden:"
 
 msgid "Display post date?"
-msgstr ""
+msgstr "Veröffentlichungsdatum anzeigen?"
 
 msgid "Display as dropdown"
-msgstr ""
+msgstr "Als Auswahlbox darstellen"
 
 msgid "Show post counts"
-msgstr ""
+msgstr "Zeige Beitrags-Zähler"
 
 msgid "Show hierarchy"
-msgstr ""
+msgstr "Zeige die Hierarchie an"
 
 msgid "Number of comments to show:"
-msgstr ""
+msgstr "Wieviele Kommentare sollen angezeigt werden:"
 
 msgid "post"
 msgstr ""
@@ -113,16 +116,4 @@ msgid "category"
 msgstr ""
 
 msgid "post_tag"
-msgstr ""
-
-msgid "A search form for your site."
-msgstr ""
-
-msgid "Search (Custom Post Type)"
-msgstr ""
-
-msgid "Search"
-msgstr ""
-
-msgid "All"
 msgstr ""

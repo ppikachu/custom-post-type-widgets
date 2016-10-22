@@ -1,15 +1,15 @@
 <?php
-/*
-Plugin Name: Custom Post Type Widgets
-Plugin URI: https://github.com/thingsym/custom-post-type-widgets
-Description: This plugin adds default custom post type widgets.
-Version: 1.0.1
-Author: thingsym
-Author URI: http://www.thingslabo.com/
-License: GPL2
-Text Domain: custom-post-type-widgets
-Domain Path: /languages/
-*/
+/**
+ * Plugin Name: Custom Post Type Widgets
+ * Plugin URI: https://github.com/thingsym/custom-post-type-widgets
+ * Description: This plugin adds default custom post type widgets.
+ * Version: 1.1.2
+ * Author: thingsym
+ * Author URI: http://www.thingslabo.com/
+ * License: GPL2
+ * Text Domain: custom-post-type-widgets
+ * Domain Path: /languages/
+ */
 
 class Custom_Post_Type_Widgets {
 	public function __construct() {
@@ -21,14 +21,13 @@ class Custom_Post_Type_Widgets {
 	public function load() {
 		$dir = plugin_dir_path( __FILE__ );
 
-		include_once( $dir . 'inc/class-custom-post-type-categorydropdown.php' );
-
 		include_once( $dir . 'inc/widget-custom-post-type-recent-posts.php' );
 		include_once( $dir . 'inc/widget-custom-post-type-archive.php' );
 		include_once( $dir . 'inc/widget-custom-post-type-categories.php' );
 		include_once( $dir . 'inc/widget-custom-post-type-calendar.php' );
 		include_once( $dir . 'inc/widget-custom-post-type-recent-comments.php' );
 		include_once( $dir . 'inc/widget-custom-post-type-tag-cloud.php' );
+		include_once( $dir . 'inc/widget-custom-post-type-search.php' );
 	}
 
 	public function init() {
@@ -44,6 +43,7 @@ class Custom_Post_Type_Widgets {
 		register_widget( 'WP_Custom_Post_Type_Widgets_Calendar' );
 		register_widget( 'WP_Custom_Post_Type_Widgets_Recent_Comments' );
 		register_widget( 'WP_Custom_Post_Type_Widgets_Tag_Cloud' );
+		register_widget( 'WP_Custom_Post_Type_Widgets_Search' );
 	}
 
 	public function uninstall() {}
